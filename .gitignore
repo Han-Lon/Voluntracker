@@ -1,0 +1,29 @@
+.idea/
+
+# Don't push virtual environment dirs
+venv/
+env/
+v-env/
+
+# Don't push backup files
+Backups/*
+
+# Don't push the spec files since they're particular to each machine
+*.spec
+
+# Don't push the testing file
+Capstone_Testing.py
+
+# Don't push any .xlsx or .xls Excel files, except the base template file
+*.xls
+*.xlsx
+!BaseTemplate.xlsx
+
+# Only push specific files from the Configuration directory
+Configuration/credentials.json
+Configuration/Roster.csv
+Configuration/token.pickle
+Configuration/spreadurl.txt
+
+# Don't upload the __pycache__
+__pycache__/
