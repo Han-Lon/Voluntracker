@@ -1,5 +1,5 @@
 # Voluntracker
-## My capstone project in providing a fully Pythonic standalone GUI for managing volunteers in an organization
+## My college capstone project in providing a fully Pythonic standalone GUI for managing volunteers in an organization
 
 What volunteer can do:
 - Pull down form responses from a Google Forms output file in Google Sheets
